@@ -5,6 +5,6 @@
 
 ```bash
 docker build -t myjava:openjdk .
-docker run -t --rm -v ${PWD}:/mnt myjava:openjdk javac Main.java
-docker run -t --rm -v ${PWD}:/mnt myjava:openjdk java Main
+docker run -it --rm -v ${PWD}:/mnt myjava:openjdk javac Main.java
+docker run -it --rm -v ${PWD}:/mnt myjava:openjdk java Main
 ```
