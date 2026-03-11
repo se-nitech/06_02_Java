@@ -2,7 +2,6 @@
     "recommendations": [
         "mhutchie.git-graph",
         "ms-ceintl.vscode-language-pack-ja",
-        "visualstudioexptteam.vscodeintellicode",
         "vscjava.vscode-java-pack",
     ]
 }
